@@ -18,7 +18,7 @@ const Home = () => {
       accentColor: 'bg-orange-500',
     },
     {
-      id: 2, name: 'Groceries',  slug: 'groceries',
+      id: 2, name: 'Groceries', slug: 'groceries',
       description: 'Fresh produce & essentials',
       image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&h=400&fit=crop&q=80',
       fallbackImage: 'https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&h=400&fit=crop&q=80',
@@ -43,13 +43,13 @@ const Home = () => {
   ];
 
   const cuisineCategories = [
-    { id: 1, name: 'American', image: '/cuisings/French-Fries.png' },
-    { id: 2, name: 'Burgers', image: '/cuisings/Burgers.png' },
-    { id: 3, name: 'Breakfast', image: '/cuisings/Breakfask.jpg' },
-    { id: 4, name: 'Pizza', image: '/cuisings/pizza.webp' },
-    { id: 5, name: 'Sushi', image: '/cuisings/sushi.jpg' },
-    { id: 6, name: 'Mexican', image: '/cuisings/mexican.webp' },
-    { id: 7, name: 'Chinese', image: '/cuisings/chinese.png' },
+    { id: 1, name: 'American', image: '/cuisings/Frame.png' },
+    { id: 2, name: 'Burgers', image: '/cuisings/Frame (3).png' },
+    { id: 3, name: 'Breakfast', image: '/cuisings/' },
+    { id: 4, name: 'Pizza', image: '/cuisings/' },
+    { id: 5, name: 'Sushi', image: '/cuisings/' },
+    { id: 6, name: 'Mexican', image: '/cuisings/' },
+    { id: 7, name: 'Chinese', image: '/cuisings/' },
   ];
 
   const superCategories = [
@@ -149,8 +149,7 @@ const Home = () => {
       <div className="px-4 mb-6">
         <div className="flex justify-between items-center mb-3">
           <h2 className="text-lg font-bold text-blackc">Top Restaurant</h2>
-          <Link to="/category/restaurants" className="text-sm font-semibold text-primary hover:text-hover transition-colors">
-            See all
+          <Link to="/category/restaurants" className="text-sm font-semibold text-gray-800 px-4 py-1.5 rounded-full transition-colors" style={{ backgroundColor: '#A1EEC7' }}>            See all
           </Link>
         </div>
 
@@ -213,9 +212,9 @@ const Home = () => {
       <div className="px-4 mb-6">
         <div className="flex justify-between items-center mb-3">
           <h2 className="text-lg font-bold text-blackc flex items-center">
-            <span className="mr-2">🛒</span> Super
+            <span className="mr-2"></span> Super markets
           </h2>
-          <Link to="/category/groceries" className="text-sm font-semibold text-primary hover:text-hover transition-colors">
+          <Link to="/category/restaurants" className="text-sm font-semibold text-gray-800 px-4 py-1.5 rounded-full transition-colors" style={{ backgroundColor: '#A1EEC7' }}>
             See all
           </Link>
         </div>
@@ -239,9 +238,9 @@ const Home = () => {
       <div className="px-4 mb-6">
         <div className="flex justify-between items-center mb-3">
           <h2 className="text-lg font-bold text-blackc flex items-center">
-            <span className="mr-2">🎉</span> Promotions
+            <span className="mr-2"></span> Promotions
           </h2>
-          <Link to="/category/restaurants" className="text-sm font-semibold text-primary hover:text-hover transition-colors">
+          <Link to="/category/restaurants" className="text-sm font-semibold text-gray-800 px-4 py-1.5 rounded-full transition-colors" style={{ backgroundColor: '#A1EEC7' }}>
             See all
           </Link>
         </div>

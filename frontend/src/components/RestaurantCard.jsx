@@ -19,7 +19,7 @@ const RestaurantCard = ({ restaurant }) => {
         </div>
         
         <div className="absolute top-2 right-2 bg-white px-1.5 py-0.5 rounded-md flex items-center space-x-1 shadow-sm">
-          <span className="text-[10px]">⭐</span>
+          <span className="text-[10px]"></span>
           <span className="font-bold text-[10px] text-blackc">{restaurant.rating}</span>
         </div>
       </div>

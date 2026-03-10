@@ -17,7 +17,7 @@ function App() {
     <CartProvider>
       <Router>
         <div className="min-h-screen bg-grey-full-light flex flex-col pb-20 md:pb-0">
-          <div className="flex-1 w-full max-w-7xl mx-auto bg-grey-full-light min-h-screen relative shadow-sm overflow-hidden flex flex-col">
+          <div className="flex-1 w-full max-w-7xl mx-auto bg-grey-full-light min-h-screen relative shadow-sm flex flex-col">
             
             <Navbar />
 
