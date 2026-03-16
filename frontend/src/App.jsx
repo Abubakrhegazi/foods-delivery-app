@@ -11,6 +11,7 @@ import RestaurantSignUp from './pages/RestaurantSignUp';
 import AdminDashboard from './pages/AdminDashboard';
 import BottomNav from './components/BottomNav';
 import CategoryPage from './pages/CategoryPage';
+import SearchResults from './pages/SearchResults';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/category/:slug" element={<CategoryPage />} />
+                <Route path="/search" element={<SearchResults />} />
                 <Route path="/restaurant/:id" element={<RestaurantDetail />} />
                 <Route path="/restaurant-signup" element={<RestaurantSignUp />} />
                 <Route path="/admin" element={<AdminDashboard />} />
